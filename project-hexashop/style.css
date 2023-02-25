@@ -1,0 +1,454 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #aaa;
+}
+
+.nav-link{
+    color: black;
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    color: #2a2a2a;
+    text-transform: capitalize;
+    line-height: 39px;
+    border: transparent;
+}
+
+.banner-reklam {
+    border-bottom: 3px dotted #eee;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+.banner-reklam .left-content .daxili-hisse {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner-reklam .left-content .daxili-hisse h4 {
+    color: #fff;
+    margin-top: -10px;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-reklam .left-content .daxili-hisse span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    margin-bottom: 29px;
+}
+
+.main-border-button a {
+    font-size: 13px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+a{
+    text-decoration:  none;
+}
+
+li{
+    list-style: none;
+}
+
+.banner-reklam .left-content .thumbnail img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-reklam .right-content .right-first-image {
+    margin-bottom: 28.5px;
+}
+
+.banner-reklam .right-content .right-first-image .thumbnail {
+    position: relative;
+    text-align: center;
+}
+
+.banner-reklam .right-content .right-first-image .thumbnail .daxili-hisse {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.banner-reklam .right-content .right-first-image .thumbnail .daxili-hisse h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner-reklam .right-content .right-first-image .thumbnail .daxili-hisse span {
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+}
+
+.banner-reklam .right-content .right-first-image .thumbnail img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#types-of-clothers {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-bottom: 3px dotted #eee;
+}
+
+.section-heading h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+.section-heading span {
+    font-size: 14px;
+    color: #a1a1a1;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#types-of-clothers .section-heading {
+    margin-bottom: 60px;
+}
+
+#types-of-clothers .item .thumbnail {
+    position: relative;
+}
+
+#types-of-clothers .thumbnail img {
+    display: block;
+    width: 100%;
+}
+
+#types-of-clothers .item .down-content {
+    padding-top: 30px;
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+}
+
+
+#types-of-clothers .item .down-content h4 {
+    font-size: 22px;
+    color: #2a2a2a;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+#types-of-clothers .item .down-content span {
+    font-size: 18px;
+    color: #a1a1a1;
+    font-weight: 500;
+    display: block;
+}
+
+#types-of-clothers .item .down-content ul.stars {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+#types-of-clothers .item .down-content ul.stars li {
+    display: inline;
+    font-size: 13px;
+}
+
+#our-products {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-bottom: 3px dotted #eee;
+}
+
+#our-products .first-image {
+    margin-bottom: 30px;
+}
+
+#our-products .left-content h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+#our-products .left-content span {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: 500;
+    display: block;
+    margin-top: 25px;
+}
+
+#our-products .left-content .quote i {
+    float: left;
+    font-size: 32px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#our-products .left-content .quote {
+    margin-top: 25px;
+}
+
+#our-products .left-content .quote p {
+    font-style: italic;
+    color: #2a2a2a;
+    font-weight: 500;
+}
+
+#our-products .left-content p {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: 500;
+    display: block;
+    margin-top: 25px;
+}
+
+#our-products .left-content .button-man a {
+    color: #2a2a2a;
+    border-color: #2a2a2a;
+    margin-top: 35px;
+}
+.button-man a {
+    font-size: 13px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+#our-products .leather, #our-products .types {
+    min-height: 260px;
+    background-color: #f8f8f8;
+    text-align: center;
+    width: 100%;
+}
+#our-products .leather {
+    margin-bottom: 30px;
+}
+
+
+
+#our-products .leather h4, #our-products .types h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2a2a2a;
+    padding-top: 90px;
+    margin-bottom: 5px;
+}
+
+#our-products .leather span, #our-products .types span {
+    font-size: 14px;
+    font-style: italic;
+    color: #aaa;
+    font-weight: 500;
+}
+
+#our-products img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#our-products .first-image {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 992px)
+{
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 60%;
+    }
+}
+
+#media-show {
+    margin-top: 90px;
+    padding-bottom: 90px;
+    border-bottom: 3px dotted #eee;
+}
+
+#media-show .images {
+    margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#media-show .col-2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+#media-show .thumbnail img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#contact-with-us {
+    margin-top: 90px;
+}
+
+#contact-with-us .section-heading {
+    margin-bottom: 30px;
+}
+
+#contact-with-us .section-heading h2 {
+    line-height: 55px;
+}
+.section-heading h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+.section-heading span {
+    font-size: 14px;
+    color: #a1a1a1;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#contact-with-us form input {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: #aaa;
+    border-radius: 0px;
+    border: 1px solid #7a7a7a;
+    box-shadow: none;
+}
+
+#contact-with-us form button {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    background-color: #2a2a2a;
+    box-shadow: none;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+#contact-with-us ul li {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+#contact-with-us ul li {
+    margin-bottom: 30px;
+    display: block;
+}
+
+#contact-with-us ul li span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #fff;
+    transition: all .3s;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 60px 0px 30px 0px;
+    background-color: #2a2a2a;
+}
+
+footer h4 {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer .footer-bottom {
+    margin-top: 30px;
+    padding-top: 30px;
+    text-align: center;
+    border-top: 1px solid rgba(250,250,250,0.3);
+}
+
+footer .footer-bottom p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer .footer-bottom a {
+    color: rgb(76, 213, 213);
+}
+
+footer .footer-bottom ul {
+    margin-top: 20px;
+}
+
+footer .footer-bottom ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+footer .footer-bottom ul li a {
+    font-size: 22px;
+    color: rgb(76, 213, 213);
+}
+
+@media (max-width: 767px)
+{
+    #contact-with-us form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px)
+{
+    #contact-with-us input {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    footer {
+        text-align: center;
+    }
+}
