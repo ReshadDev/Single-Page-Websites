@@ -1,0 +1,251 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/infinite-loop-01.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.title {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.tm-hero-subtitle {
+  text-shadow: 2px 2px 2px #333;
+  color: white;
+}
+
+p {
+  line-height: 1.9;
+}
+
+.tm-hero-title {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 2px #333;
+  color: white;
+}
+
+.tm-down-arrow {
+  color: #FFF;
+  cursor: pointer;
+  background: #357;
+  padding: 15px 40px;
+  transition: all 0.3s ease;
+  margin-top: 200px;
+}
+
+.wwd {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.wwd .tm-icon {
+  display: block;
+  color: #37A;
+}
+.wwd .tm-continue {
+  padding: 20px 0 30px 0;
+}
+.wwd .tm-intro-text {
+  font-size: 1.2rem;
+}
+.wwd .tm-btn-primary {
+  color: white;
+  background-color: #369;
+  padding: 14px 30px;
+}
+.wwd .content-area {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.wwd .content-area .tm-intro-text {
+  font-size: 1.2rem;
+}
+.wwd .content-area .tm-section-title {
+  font-size: 2.6rem;
+  font-weight: normal;
+}
+@media (min-width: 768px) {
+  .wwd .content-area .tm-intro-text-container {
+    padding-left: 0px;
+  }
+}
+
+.tm-text-primary {
+  color: #37A;
+}
+
+.testimonals {
+  width: 100%;
+  background-image: url(../img/infinite-loop-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 880px;
+  position: relative;
+}
+.testimonals .col-lg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tm-section-title {
+  font-size: 2.6rem;
+  font-weight: normal;
+}
+
+.tm-content-box {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.tm-section-pad-top {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.tm-section-desc {
+  max-width: 650px;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.gallery-area {
+  padding-top: 70px;
+  padding-bottom: 120px;
+}
+.gallery-area .carousel-area {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+.gallery-area .tm-testimonial-item img {
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+.gallery-area figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-area blockquote {
+  font-size: 0.86em;
+  line-height: 1.8em;
+  color: #fff;
+}
+.gallery-area figcaption {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+.gallery figure {
+  text-align: center;
+}
+.gallery .tm-section-desc {
+  max-width: 650px;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #707070;
+}
+.gallery .my-area {
+  padding-top: 70px;
+  padding-bottom: 120px;
+}
+.gallery .slick-dots {
+  margin-top: 40px;
+  gap: 20px;
+}
+.gallery .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery button {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.gallery .new-active {
+  background-color: #3ba0dd;
+}
+
+.contact {
+  color: white;
+  background-color: #001828;
+  background-image: url(../img/infinite-loop-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 880px;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.contact .tm-input {
+  margin: 0 0 20px 0;
+  width: 90%;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+.contact .tm-btn-submit {
+  font-size: 0.9em;
+  color: #fff;
+  background-color: #369;
+  width: 50%;
+  margin-bottom: 60px;
+}
+.contact .btn {
+  padding: 8px 32px;
+}
+.contact .contact-item {
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.contact .item-link i, .contact .item-link span {
+  color: white;
+  transition: all 0.3s ease;
+}
+.contact span {
+  font-size: 19.2px;
+}
+
+.item-link {
+  display: flex;
+  align-items: center;
+}
+
+.mr-4, .mx-4 {
+  margin-right: 1.5rem !important;
+}/*# sourceMappingURL=style.css.map */
